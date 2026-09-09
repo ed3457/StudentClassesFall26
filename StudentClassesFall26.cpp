@@ -18,5 +18,12 @@ int main()
     student2.setID("1AB");
     student2.setName("Mary Adams");
     student2.printStudentInfo();
+
+
+    Student student3;
+    student3.printStudentInfo();
+
+    Student student4("1234", "Adam Jason");
+    student4.printStudentInfo();
 }
 

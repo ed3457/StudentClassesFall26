@@ -25,3 +25,17 @@ string Student::getName()
 {
 	return name; 
 }
+
+Student::Student()
+{
+	setID("Not set yet");
+	setName("Not set yet");
+
+}
+
+Student::Student(string i, string n)
+{
+	setID(i);
+	setName(n);
+
+}

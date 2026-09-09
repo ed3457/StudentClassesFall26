@@ -18,6 +18,12 @@ public:
 	void setName(string n);
 	string getName(); 
 
+	// Constructor: a function that runs at the time
+	// of the object creation, and it is used to 
+	// initialize the object's variables 
+
+	Student(); // default constructor 
+	Student(string i, string n); // overloaded constructors 
 
 };
 
