@@ -24,6 +24,6 @@ public:
 
 	Student(); // default constructor 
 	Student(string i, string n); // overloaded constructors 
-
+	
 };
 
