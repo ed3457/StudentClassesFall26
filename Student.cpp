@@ -39,3 +39,11 @@ Student::Student(string i, string n)
 	setName(n);
 
 }
+
+Student::Student(const Student& otherobject)
+{
+	setName(otherobject.name);
+
+	setID(otherobject.id);
+
+}

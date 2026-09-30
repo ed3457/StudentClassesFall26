@@ -26,7 +26,7 @@ int main()
     Student student4("1234", "Adam Jason");
     //student4.printStudentInfo();
 
-    Student english1[]{student1, student2,student3, student4};
+    /*Student english1[]{student1, student2,student3, student4};
 
     for (int i = 0; i < 4; i++)
     {
@@ -34,6 +34,32 @@ int main()
         english1[i].printStudentInfo();
         cout << "--------------\n";
 
-    }
+    }*/
+
+
+    //int classSize = 0;
+    //cout << "Please enter the class size:";
+    //cin >> classSize;
+
+    //Student* englishClass = new Student[classSize];// array of students
+
+    //englishClass[0] = student1;
+
+    //delete[] englishClass;
+
+
+    //englishClass = new Student();// single student object 
+
+
+    Student student4Backup(student4);
+
+    student4Backup.printStudentInfo();
+
+    student4.setID("55555");
+    student4.printStudentInfo();
+
+    student4Backup.printStudentInfo();
+
+    
 }
 

@@ -23,7 +23,10 @@ public:
 	// initialize the object's variables 
 
 	Student(); // default constructor 
-	Student(string i, string n); // overloaded constructors 
+	Student(string i, string n); // overloaded constructors
+
+	// copy constructor 
+	Student(const Student& otherobject);
 	
 };
 
